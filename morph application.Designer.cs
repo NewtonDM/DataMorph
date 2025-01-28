@@ -58,7 +58,7 @@
             // btnCopy
             // 
             btnCopy.BackColor = Color.Khaki;
-            btnCopy.Location = new Point(1007, 696);
+            btnCopy.Location = new Point(1056, 782);
             btnCopy.Name = "btnCopy";
             btnCopy.Size = new Size(60, 29);
             btnCopy.TabIndex = 7;
@@ -69,7 +69,7 @@
             // btnGenerar
             // 
             btnGenerar.BackColor = Color.LawnGreen;
-            btnGenerar.Location = new Point(876, 390);
+            btnGenerar.Location = new Point(925, 390);
             btnGenerar.Name = "btnGenerar";
             btnGenerar.Size = new Size(191, 29);
             btnGenerar.TabIndex = 6;
@@ -101,7 +101,7 @@
             txtResponseData.Multiline = true;
             txtResponseData.Name = "txtResponseData";
             txtResponseData.ScrollBars = ScrollBars.Vertical;
-            txtResponseData.Size = new Size(1044, 265);
+            txtResponseData.Size = new Size(1080, 351);
             txtResponseData.TabIndex = 3;
             // 
             // label1
@@ -119,7 +119,7 @@
             txtRequestData.Multiline = true;
             txtRequestData.Name = "txtRequestData";
             txtRequestData.ScrollBars = ScrollBars.Vertical;
-            txtRequestData.Size = new Size(1044, 265);
+            txtRequestData.Size = new Size(1081, 265);
             txtRequestData.TabIndex = 1;
             // 
             // cboSelectAction
