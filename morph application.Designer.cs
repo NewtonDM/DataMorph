@@ -57,23 +57,23 @@
             // 
             // btnCopy
             // 
-            btnCopy.BackColor = Color.YellowGreen;
-            btnCopy.Location = new Point(919, 390);
+            btnCopy.BackColor = Color.Khaki;
+            btnCopy.Location = new Point(1007, 696);
             btnCopy.Name = "btnCopy";
-            btnCopy.Size = new Size(160, 29);
+            btnCopy.Size = new Size(60, 29);
             btnCopy.TabIndex = 7;
-            btnCopy.Text = "Copiar Respuesta";
+            btnCopy.Text = "Copy";
             btnCopy.UseVisualStyleBackColor = false;
             btnCopy.Click += btnCopy_Click;
             // 
             // btnGenerar
             // 
-            btnGenerar.BackColor = SystemColors.ActiveCaption;
-            btnGenerar.Location = new Point(889, 718);
+            btnGenerar.BackColor = Color.LawnGreen;
+            btnGenerar.Location = new Point(876, 390);
             btnGenerar.Name = "btnGenerar";
             btnGenerar.Size = new Size(191, 29);
             btnGenerar.TabIndex = 6;
-            btnGenerar.Text = "Generar Datos";
+            btnGenerar.Text = "Generar";
             btnGenerar.UseVisualStyleBackColor = false;
             btnGenerar.Click += btnGenerar_Click;
             // 
@@ -130,7 +130,7 @@
             cboSelectAction.Name = "cboSelectAction";
             cboSelectAction.Size = new Size(413, 28);
             cboSelectAction.TabIndex = 0;
-            cboSelectAction.SelectedIndexChanged += this.cboSelectAction_SelectedIndexChanged;
+            cboSelectAction.SelectedIndexChanged += cboSelectAction_SelectedIndexChanged;
             // 
             // Form1
             // 
