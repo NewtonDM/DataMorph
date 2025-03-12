@@ -37,11 +37,13 @@
             label1 = new Label();
             txtRequestData = new TextBox();
             cboSelectAction = new ComboBox();
+            button1 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(btnCopy);
             panel1.Controls.Add(btnGenerar);
             panel1.Controls.Add(label3);
@@ -132,6 +134,17 @@
             cboSelectAction.TabIndex = 0;
             cboSelectAction.SelectedIndexChanged += cboSelectAction_SelectedIndexChanged;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.Khaki;
+            button1.Location = new Point(954, 782);
+            button1.Name = "button1";
+            button1.Size = new Size(85, 29);
+            button1.TabIndex = 8;
+            button1.Text = "Consumir";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -156,5 +169,6 @@
         private Button btnGenerar;
         private Label label3;
         private Button btnCopy;
+        private Button button1;
     }
 }
