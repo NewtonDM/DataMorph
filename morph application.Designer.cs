@@ -98,6 +98,7 @@
             // txtResponseData
             // 
             txtResponseData.Location = new Point(36, 425);
+            txtResponseData.MaxLength = 99999999;
             txtResponseData.Multiline = true;
             txtResponseData.Name = "txtResponseData";
             txtResponseData.ScrollBars = ScrollBars.Vertical;
@@ -116,6 +117,7 @@
             // txtRequestData
             // 
             txtRequestData.Location = new Point(35, 106);
+            txtRequestData.MaxLength = 999999999;
             txtRequestData.Multiline = true;
             txtRequestData.Name = "txtRequestData";
             txtRequestData.ScrollBars = ScrollBars.Vertical;
@@ -130,7 +132,7 @@
             cboSelectAction.Name = "cboSelectAction";
             cboSelectAction.Size = new Size(413, 28);
             cboSelectAction.TabIndex = 0;
-            cboSelectAction.SelectedIndexChanged += this.cboSelectAction_SelectedIndexChanged;
+            cboSelectAction.SelectedIndexChanged += cboSelectAction_SelectedIndexChanged;
             // 
             // Form1
             // 
