@@ -37,11 +37,13 @@
             label1 = new Label();
             txtRequestData = new TextBox();
             cboSelectAction = new ComboBox();
+            button1 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(btnCopy);
             panel1.Controls.Add(btnGenerar);
             panel1.Controls.Add(label3);
@@ -57,23 +59,23 @@
             // 
             // btnCopy
             // 
-            btnCopy.BackColor = Color.YellowGreen;
-            btnCopy.Location = new Point(919, 390);
+            btnCopy.BackColor = Color.Khaki;
+            btnCopy.Location = new Point(1056, 782);
             btnCopy.Name = "btnCopy";
-            btnCopy.Size = new Size(160, 29);
+            btnCopy.Size = new Size(60, 29);
             btnCopy.TabIndex = 7;
-            btnCopy.Text = "Copiar Respuesta";
+            btnCopy.Text = "Copy";
             btnCopy.UseVisualStyleBackColor = false;
             btnCopy.Click += btnCopy_Click;
             // 
             // btnGenerar
             // 
-            btnGenerar.BackColor = SystemColors.ActiveCaption;
-            btnGenerar.Location = new Point(889, 718);
+            btnGenerar.BackColor = Color.LawnGreen;
+            btnGenerar.Location = new Point(925, 390);
             btnGenerar.Name = "btnGenerar";
             btnGenerar.Size = new Size(191, 29);
             btnGenerar.TabIndex = 6;
-            btnGenerar.Text = "Generar Datos";
+            btnGenerar.Text = "Generar";
             btnGenerar.UseVisualStyleBackColor = false;
             btnGenerar.Click += btnGenerar_Click;
             // 
@@ -102,7 +104,7 @@
             txtResponseData.Multiline = true;
             txtResponseData.Name = "txtResponseData";
             txtResponseData.ScrollBars = ScrollBars.Vertical;
-            txtResponseData.Size = new Size(1044, 265);
+            txtResponseData.Size = new Size(1080, 351);
             txtResponseData.TabIndex = 3;
             // 
             // label1
@@ -121,7 +123,7 @@
             txtRequestData.Multiline = true;
             txtRequestData.Name = "txtRequestData";
             txtRequestData.ScrollBars = ScrollBars.Vertical;
-            txtRequestData.Size = new Size(1044, 265);
+            txtRequestData.Size = new Size(1081, 265);
             txtRequestData.TabIndex = 1;
             // 
             // cboSelectAction
@@ -133,6 +135,17 @@
             cboSelectAction.Size = new Size(413, 28);
             cboSelectAction.TabIndex = 0;
             cboSelectAction.SelectedIndexChanged += cboSelectAction_SelectedIndexChanged;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Khaki;
+            button1.Location = new Point(954, 782);
+            button1.Name = "button1";
+            button1.Size = new Size(85, 29);
+            button1.TabIndex = 8;
+            button1.Text = "Consumir";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
@@ -158,5 +171,6 @@
         private Button btnGenerar;
         private Label label3;
         private Button btnCopy;
+        private Button button1;
     }
 }
